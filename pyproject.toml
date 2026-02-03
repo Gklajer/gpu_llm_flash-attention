@@ -12,3 +12,9 @@ dependencies = [
     "torchvision>=0.25.0",
     "triton>=3.6.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.14",
+    "ty>=0.0.14",
+]
